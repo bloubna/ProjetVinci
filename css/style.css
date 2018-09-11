@@ -1,0 +1,16 @@
+.navbar {
+    height: 100px;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul li {
+    padding-left: 8%;
+}
+
+nav ul {
+    margin-right: 12%;
+}
+
