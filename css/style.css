@@ -27,7 +27,7 @@ nav ul {
 
 h2 {
     text-align: center;
-    margin: 5% 0;
+    margin: 4rem 0;
 }
 
 h3 {
@@ -43,4 +43,16 @@ h3 {
 
 .carousel {
     width: 30%;
+}
+
+.row [class*="col"] {
+    padding-bottom: 5rem;
+}
+
+.row1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.row2 {
+    background-color: #4d4d60;
 }
