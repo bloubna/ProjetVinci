@@ -41,8 +41,14 @@ h3 {
 *****************Compétences**************
 *****************************************/
 
-.carousel {
-    width: 30%;
+
+
+.carousel-item {   
+    height: 500px;
+    width: 100%;
+}
+.carousel-item img {
+width: 100%;
 }
 
 .row [class*="col"] {
