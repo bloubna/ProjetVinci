@@ -44,7 +44,60 @@
         <div class="row row1">
             <div class="col-12 col-md-6">
                 <h2>EXPÉRIENCE</h2>
+                <div id="accordion">
+                    <!-- card1 -->
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1519 | Chateau royal pour François Ier, Amboise
+                                </button>
+                            </h3>
+                        </div>
 
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Ingénieur, architecte et peintre du roi François Ier
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h3 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    1506 | Villa de Charles d'Amboise, Milan
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                1490 | Exploration des possibilités du plan centré appliqué aux Églises, Milan
+                            </button>
+                        </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+<!-- 
                 <h3>1519 | Chateau royal pour François Ier, Amboise</h3>
                 <p>Ingénieur, architecte et peintre du roi François Ier</p>
 
@@ -54,7 +107,7 @@
 
                 <h3>1490 | Exploration des possibilités du plan centré appliqué aux Églises, Milan</h3>
                 <p>Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                    card's content.</p> -->
             </div>
 
             <div id="carouselExampleControls" class="carousel slide d-none d-md-block col-md-5 offset-md-1 carousel-fade mt-5"
@@ -140,21 +193,25 @@
         </div>
 
         <!-- Fin modal -->
-        <div class="row row2 justify-content-center">
-            <div class="col-12 col-md-10 text-white">
-                <h2>FORMATION</h2>
-                <h3 class="text-center">1469 - 1482 | Formation à l'atelier de Verrocchio</h3>
-                <div class="pt-5">
-                    <img src="images/baptism-of-christ.jpg" alt="Baptism of Christ painting" class="clip-n-shape float-left">
-
-                    <img src="images/the-annunciation.jpg" alt="The annunciation painting" class="clip-n-shape float-right">
-                    <p class="text-justify">
-                        Quand le grand artiste Verrocchio, qui travaille à l'époque auprès de la grande famille florentine des Médicis, constate les talents de Léonard de Vinci, il exhorte son père de le lui confier comme apprenti. De Vinci va travailler 12 ans dans l'atelier de celui qu'il considère comme son père spirituel et croisera le chemin d'autres artistes de renom.
-                        Il reçoit une formation multi-disciplinaire car, à l'institut, on travaille le bois, les étoffes, on soude, on peint, on forge et on s'adonne à la musique, à la mécanique ou encore à la chimie. C'est là-bas qu'à 20&nbsp;ans à peine Léonard De Vinci réalise sa première grande peinture, en collaboration avec son grand maître&nbsp;: <em>Le baptême du Christ</em>.
-                    </p>
+        <!-- Début Formation -->
+        <div class="row row2">
+            <div id="showOnScroll" class="hiddenEl">
+                <div class="col-12 col-md-10">
+                    <h2>FORMATION</h2>
+                    <h3 class="text-center">1469 - 1482 | Formation à l'atelier de Verrocchio</h3>
+                    <div class="pt-5">
+                        <img src="images/baptism-of-christ.jpg" alt="Baptism of Christ painting" class="clip-n-shape float-left">
+                        <img src="images/the-annunciation.jpg" alt="The annunciation painting" class="clip-n-shape float-right">
+                        <p class="text-justify">
+                            Quand le grand artiste Verrocchio, qui travaille à l'époque auprès de la grande famille florentine des Médicis, constate les talents de Léonard de Vinci, il exhorte son père de le lui confier comme apprenti. De Vinci va travailler 12 ans dans l'atelier de celui qu'il considère comme son père spirituel et croisera le chemin d'autres artistes de renom.
+                            Il reçoit une formation multi-disciplinaire car, à l'institut, on travaille le bois, les étoffes, on soude, on peint, on forge et on s'adonne à la musique, à la mécanique ou encore à la chimie. C'est là-bas qu'à 20&nbsp;ans à peine Léonard De Vinci réalise sa première grande peinture, en collaboration avec son grand maître&nbsp;: <em>Le&nbsp;baptême&nbsp;du&nbsp;Christ</em>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- Fin formation -->
+        <!-- Début langues -->
         <div class="row row1">
             <div class="col-12">
                 <h2>LANGUES</h2>
@@ -183,7 +240,7 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

@@ -75,3 +75,39 @@ width: 100%;
 .clip-n-shape ~ p {
     line-height: 2.5rem;
 }
+
+.hiddenEl {
+    visibility: hidden;
+    width: 100%;
+}
+
+.showOnScroll {
+    -webkit-animation-name: slideUp;
+            animation-name: slideUp;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    visibility: visible;
+    color: white;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
