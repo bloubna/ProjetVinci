@@ -48,6 +48,10 @@ h3 {
 width: 100%;
 }
 
+.row {
+    padding-bottom: 8%;
+}
+
 .row1 {
     padding-left: 10%;
     padding-right: 10%;
