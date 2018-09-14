@@ -5,6 +5,10 @@ navbar {
     height: 100px;
 }
 
+.bg-light {
+    background-color: #f4f7f7 !important;
+}
+
 nav img {
     width: 100px;
 }
@@ -15,6 +19,12 @@ nav ul li {
 
 nav ul {
     margin-right: 12%;
+}
+
+@media screen and (max-width: 390px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
 }
 
 /*****************************************
@@ -28,6 +38,7 @@ nav ul {
 h2 {
     text-align: center;
     margin: 4rem 0;
+    color: #1f4e5f;
 }
 
 h3 {
@@ -37,9 +48,21 @@ h3 {
 }
 
 
+.green {
+    color: #79a8a9;
+}
+
+.green:hover {
+    color: #79a8a9;
+}
+
 /*****************************************
 *****************Compétences**************
 *****************************************/
+.carousel {
+    padding-top: 4.5rem;
+}
+
 .carousel-item {   
     height: 500px;
     width: 100%;
@@ -57,8 +80,13 @@ width: 100%;
     padding-right: 10%;
 }
 .row2 {
-    background-color: #4d4d60;
+    background-color: #1f4e5f;
 }
+
+.row2 h2 {
+    color: #79a8a9;
+}
+
 
 .clip-n-shape {
         width: 50%;
