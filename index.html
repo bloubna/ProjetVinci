@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="css/style.css" />
+   <link rel="stylesheet" type="text/css" href="css/styleIndex.css" />
 </head>
 
 <body>
@@ -40,21 +40,30 @@
             </header>
 <!--carossel-->
 
-    <div id="carouselIndex" class="carousel slide p-0 marging tales" data-ride="carousel">
+    <div id="carouselIndex" class="carousel slide p-0 marging" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselIndex" data-slide-to="0" class="active"></li>
             <li data-target="#carouselIndex" data-slide-to="1"></li>
             <li data-target="#carouselIndex" data-slide-to="2"></li>
+            <li data-target="#carouselIndex" data-slide-to="3"></li>
+            <li data-target="#carouselIndex" data-slide-to="4"></li>
+            <li data-target="#carouselIndex" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block mh-100 img-fluid" src="images/test2.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="images/vinci9.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block mh-100 img-fluid" src="images/de-vinci-inventions-1.jpg" alt="Second slide">
+                <img class="d-block img-fluid" src="images/vinci12.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block mh-100 img-fluid" src="images/machine.jpg" alt="Third slide">
+                <img class="d-block img-fluid" src="images/vinci7.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block  img-fluid" src="images/vinci11.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block  img-fluid" src="images/lv3.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselIndex" role="button" data-slide="prev">
@@ -67,10 +76,11 @@
         </a>
     </div>
 <!--Fin carossel-->
-<!--Fil d'actualité-->
-    <div class="container d-flex flex-column justify-content-around list-group pr-0">
+
+<!--Fil d'actualité
+    <div class="container d-flex flex-column justify-content-around list-group pr-0 mt-4">
        
-        <h2>Fil d'actualité</h2>
+        <p class="text-center font-weight-bold font-italic" id="titre">Fil d'actualité</p>
         
         <a href="#" class="list-group-item flex-column align-items-start">  
         <div class="d-flex w-100 justify-content-between ">
@@ -106,10 +116,182 @@
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
         </a>
-
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" >
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-muted">2 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" >
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-muted">2 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        </a>
     </div>
-    <!--Fin Fil d'actualité-->
+<!--Fin Fil d'actualité-->
+<!--2eme exemple fil d'actualite-->
+<div class="container">
+    <p class="text-center font-weight-bold font-italic mt-4" id="titre">Fil d'actualité</p>
+    <div class="card-deck">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="text-center">
+                        <img class="card-img img-responsive" src="images/Mona_Lisa.jpg" alt="Card image cap" style="width: 170px; height: 250px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">La Jocande</h5>
+                        <p class="card-text">Mona Lisa, un tableau que j'ai réalisé entre 1503 et 1506  qui représente un portrait mi-corps, de la Florentine Lisa Gherardini, épouse de Francesco del Giocondo.</p>
+                        <a class="btn btn-outline-primary btn-sm" role="button" href="" data-toggle="modal" data-target="#myModal1">Continue reading</a>
+                        <p class="card-text mt-4 float-right"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h5 class="modal-title">La Jocande - Mona Lisa -</h5>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                        La Joconde ou Mona Lisa est devenue un tableau éminemment célèbre car, depuis sa réalisation, nombre d'artistes l'ont prise comme référence. À l'époque romantique, les artistes ont été fascinés par ce tableau, en faisant de ce tableau l’une des œuvres d'art les plus célèbres du monde, si ce n'est la plus célèbre: elle est en tout cas considérée comme l'une des représentations d'un visage féminin les plus célèbres au monde5.
+                         Au XXIe siècle, elle est devenue l'objet d'art le plus visité au monde, juste devant le diamant Hope6, avec 20 000
+                        visiteurs qui viennent l'admirer et la photographier quotidiennement.
+                        </div>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="text-center">
+                        <img class="card-img img-responsive" src="images/La-Cene.jpg" alt="La Cene" style="width: 170px; height: 250px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">La Cène</h5>
+                        <p class="card-text">En 1498 j'ai désiné une de mes célèbre peinture la cène une peinture murale de 460 × 880 cm.</p>
+                        <a class="btn btn-outline-primary btn-sm" role="button" href="" data-toggle="modal" data-target="#myModal2">Continue reading</a>
+                        <p class="card-text mt-5 float-right"><small class="text-muted">Last updated 1 day ago</small></p>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal2">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h5 class="modal-title">La Cène</h5>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                         La cène est un exemple parfait de l’art chrétien de la Renaissance, qui illustre le verset 13 :21 de l’Evangile selon Saint
+                        Jean où Jésus, entouré de ses disciples, révèle que l’un d’entre eux va bientôt le trahir. Le tableau capture les
+                        réactions des apôtres de façon vive, montrant chacune de leurs personnalités en action.
+                        Pour se permettre de retoucher plus facilement la peinture au fur et à mesure de son avancée, j'ai utilisé une
+                        technique singulière inappropriée aux fresques – Au lieu de peinture humide, j'ai utilisé de la tempera et des huiles
+                        après avoir imperméabilisé la pierre du mur au plâtre sec.
+                        En d’autres termes, j'ai travaillé sur support sec plutôt que sur plâtre humide utilisé habituellement dans le travail
+                        de fresques.
+                        </div>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="text-center">
+                         <img class="card-img img-responsive" src="images/Leonardo_da_Vinci_helicopter.jpg" alt="Card image cap" style="width: 170px; height: 260px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Vis Aérienne </h5>
+                        <p class="card-text">Ente 1487 et 1490 j'ai imaginé et crée le plan de La Vis aérienne qui s'agit d'un aéronef à hélice à vol vertical interprété par certains comme un précurseur de l’hélicoptère moderne</p>
+                        <a class="btn btn-outline-primary btn-sm" role="button" href="" data-toggle="modal" data-target="#myModal3">Continue reading</a>
+                        <p class="card-text mt-4 float-right"><small class="text-muted">Last updated 2 days ago</small></p>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal3">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h5 class="modal-title">Vis Aérienne </h5>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          Modal body..
+                        </div>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
 
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="text-center">
+                        <img class="card-img img-responsive " src="images/auto.jpg" alt="Card image cap" style="width: 170px; height: 250px;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Automobile</h5>
+                        <p class="card-text">En 1478 j'ai inventé l'automobile qui est un prototype d'automobile tricycle à moteur à ressort,  considérée comme une des plus anciennes automobiles de l'histoire.</p>
+                        <a class="btn btn-outline-primary btn-sm" role="button" href="" data-toggle="modal" data-target="#myModal4">Continue reading</a>
+                        <p class="card-text mt-5 float-right"><small class="text-muted">Last updated 3 days ago</small></p>
+                    </div>
+
+                </div>
+                <div class="modal fade" id="myModal4">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h5 class="modal-title">Automobile</h5>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          Modal body..
+                        </div>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark marging">
 
@@ -120,7 +302,7 @@
 
             <!-- Grid column1 -->
             <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                <span class="mb-0">© Emilie  -  Loubna  -  Mustapha  |  2018</span>
+                <span class="mb-0 font-weight-bold">© Emilie  -  Loubna  -  Mustapha  |  2018</span>
             </div>
             <!-- Grid column1 -->
 
@@ -153,11 +335,9 @@
       </div>
     </div>
   </footer>
-  <!-- Footer -->
+  <!-- Fin Footer -->
 
-
-
-
+</div>
 <script src="script/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 crossorigin="anonymous"></script>

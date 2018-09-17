@@ -1,0 +1,68 @@
+/*****************************************
+******************header******************
+*****************************************/
+navbar {
+    height: 100px;
+}
+
+.bg-light {
+    background-color: #f4f7f7 !important;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul li {
+    padding-left: 8%;
+}
+
+nav ul {
+    margin-right: 12%;
+}
+
+@media screen and (max-width: 390px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+/***************Page Index***************/
+/**************Carossel*****************/
+.marging{
+    margin-top: 4.5rem;
+}
+
+
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+    max-height: 450px;
+}
+.carousel-inner{
+    width:100%;
+    /*max-height: 500px;*/
+  }
+#titre{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .row img{
+    margin-top: 3px;
+    max-width: 150px; 
+    max-height: 150px;
+    border-radius: 100px;
+   }
+
+
+}
+/*@media only screen and (max-width:1199 px) {
+    .row img{
+        max-width: 150px; 
+        max-height: 150px;
+        border-radius: 100px;
+     }
+  
+  
+  }
+*/
