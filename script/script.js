@@ -1,23 +1,15 @@
-<<<<<<< HEAD
-window.onscroll = function () { myFunction() };
-
-function myFunction() {
-=======
 window.onscroll = function() {
     showUp();
     showRight();
 }
 
 function showUp() {
->>>>>>> 4718ff783054717cce76389770d8e662f59b4546
     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
         document.getElementById("showOnScroll").className = "showOnScroll d-flex justify-content-center";
     } else {
         document.getElementById("showOnScroll").className = "hiddenEl";
     }
 }
-<<<<<<< HEAD
-=======
 
 function showRight() {
     if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
@@ -26,4 +18,3 @@ function showRight() {
         document.getElementById("showOnScroll2").className = "hiddenEl";
     }
 }
->>>>>>> 4718ff783054717cce76389770d8e662f59b4546
