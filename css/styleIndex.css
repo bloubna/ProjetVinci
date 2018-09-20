@@ -1,24 +1,33 @@
 /*****************************************
 ******************header******************
 *****************************************/
-navbar {
-    height: 100px;
+.navbar {
+    height: 110px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .bg-light {
-    background-color: #f4f7f7 !important;
+    background-color: rgba(244, 247, 247, 0.7) !important;
 }
 
 nav img {
     width: 100px;
 }
 
-nav ul li {
-    padding-left: 8%;
+.navbar-nav,
+.nav-link {
+    padding: 2rem !important;
+}
+
+.nav-link:hover {
+    color: rgb(251, 251, 251) !important;
+    border-radius: 3%;
+    background-color: rgb(84, 126, 126);
 }
 
 nav ul {
-    margin-right: 12%;
+    margin-right: 8%;
 }
 
 @media screen and (max-width: 390px) {
@@ -26,17 +35,28 @@ nav ul {
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 110px;
+        right: 0;
+        background-color: rgba(244, 247, 247, 0.7);
+        border-top: rgb(244, 247, 247);
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+}
 /***************Page Index***************/
 /**************Carossel*****************/
 .marging{
-    margin-top: 4.5rem;
+    margin-top: 6.8rem;
 }
 
 
 .carousel-inner img{
     width: 100%;
     margin: auto;
-    max-height: 450px;
+    max-height: 400px;
 }
 .carousel-inner{
     width:100%;
@@ -46,6 +66,7 @@ nav ul {
     font-size: 30px;
 }
 
+
 @media only screen and (max-width: 767px) {
   .row img{
     margin-top: 3px;
@@ -53,16 +74,25 @@ nav ul {
     max-height: 150px;
     border-radius: 100px;
    }
-
-
 }
-/*@media only screen and (max-width:1199 px) {
-    .row img{
-        max-width: 150px; 
-        max-height: 150px;
-        border-radius: 100px;
+@media only screen and (min-width: 1050px) {
+.carousel-inner img{
+    max-height: 430px;
+}
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .card{
+        min-height: 320px;
+   
      }
-  
-  
   }
-*/
+#source{
+    cursor: pointer;
+}
+
+.couleur{
+    color: white;
+}
+.modal-footer a{
+    padding-right: 80px;
+}
