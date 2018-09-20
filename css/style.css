@@ -11,6 +11,10 @@
     background-color: rgba(244, 247, 247, 0.7) !important;
 }
 
+.bg-light {
+    background-color: #f4f7f7 !important;
+}
+
 nav img {
     width: 100px;
 }
@@ -44,6 +48,12 @@ nav ul {
         border-top: rgb(244, 247, 247);
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .navbar-brand {
+        font-size: 1rem;
     }
 }
 
@@ -208,7 +218,7 @@ width: 100%;
 }
 
 /*****************************************
-******************header******************
+******************footer******************
 *****************************************/
 
 .couleur {
