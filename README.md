@@ -20,7 +20,7 @@ nous étions amenés à créer un sité web avec les contraintes suivantes :
 9. Utilisation du validateur w3c:
 * https://bloubna.github.io/ProjetVinci
 * Document checking completed. No errors or warnings to show.
-10. Utilistation de Git & Github [ProjetVinci](https://bloubna.github.io/ProjetVinci/).
+10. Utilistation de Git & Github.
 
 _________________________________________________________________________________________________________________________________
 
@@ -38,7 +38,7 @@ we were to develop a website that met the following requirements:
 9. Use a w3c validator:
 * https://bloubna.github.io/ProjetVinci
 * Document checking completed. No errors or warnings to show.
-10. Use Git & Github [ProjetVinci](https://bloubna.github.io/ProjetVinci/).
+10. Use Git & Github.
 
 ## Auteurs / Authors
 
