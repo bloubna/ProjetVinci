@@ -18,8 +18,8 @@ nous étions amenés à créer un sité web avec les contraintes suivantes :
 7. Utiliser un Formulaire de contact.
 8. Sourcer le contenu utiliser.
 9. Utilisation du validateur w3c:
-  * https://bloubna.github.io/ProjetVinci
-  * Document checking completed. No errors or warnings to show.
+* https://bloubna.github.io/ProjetVinci
+* Document checking completed. No errors or warnings to show.
 10. Utilistation de Git & Github.
 
 _________________________________________________________________________________________________________________________________
@@ -36,8 +36,8 @@ we were to develop a website that met the following requirements:
 7. Use a Contact form.
 8. Source content.
 9. Use a w3c validator:
-  * https://bloubna.github.io/ProjetVinci
-  * Document checking completed. No errors or warnings to show.
+* https://bloubna.github.io/ProjetVinci
+* Document checking completed. No errors or warnings to show.
 10. Use Git & Github.
 
 ## Auteurs / Authors
