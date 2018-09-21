@@ -24,7 +24,7 @@ we were to develop a website that met the following requirements:
 
 1. Collaborate with 3 to 4 people.
 2. Minimum three pages / maximum five pages.
-3. Create a Curriculum Vitae of a historical figure. (Leonard Da Vinci)
+3. Create a Curriculum Vitae for a historical figure. (Leonard Da Vinci)
 4. Use HTML, CSS, Bootstrap & JAVASCRIPT(and/or JQUERY).
 5. Use a Carrousel.
 6. Use a News Feed.
