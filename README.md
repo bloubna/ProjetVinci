@@ -1,6 +1,6 @@
 ![alt text](https://wildcodeschool.fr/wp-content/uploads/2017/01/deer.png "Wild Code School")
 
-([Wild Code School](http://www.wildcodeschool.fr))
+([Wild Code School](https://wildcodeschool.fr/tours/))
 
 # ProjetVinci
 
