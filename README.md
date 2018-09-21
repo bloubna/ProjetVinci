@@ -15,7 +15,7 @@ nous etions ameneés à créer un sité web avec les contraintes suivantes :
 8. Sourcer le contenu utiliser.
 9. Utilistation de Git & Github [ProjetVinci](https://bloubna.github.io/ProjetVinci/).
 
-*separate paragraph*
+_
 
 As part of our training at the Wild Code School and to prepare our final project
 we were led to create a web site with the following constraints :
