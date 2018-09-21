@@ -1,5 +1,7 @@
+![alt text](https://wildcodeschool.fr/wp-content/uploads/2017/01/deer.png "Wild Code School")
+
 # ProjetVinci
-![alt text](https://wildcodeschool.fr/wp-content/uploads/2017/01/deer.png "Logo Title Text 1")
+
 Dans le cadre de notre formation à la Wild Code School et afin de préparer notre projet final
 nous etions ameneés à créer un sité web avec les contraintes suivantes :
 
