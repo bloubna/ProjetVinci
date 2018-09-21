@@ -1,7 +1,5 @@
 # ProjetVinci
-Inline-style: 
-![alt text](https://pbs.twimg.com/profile_images/697717251194150913/JaV7TAyN_400x400.jpg "Logo Title Text 1")
-
+![alt text](https://wildcodeschool.fr/wp-content/uploads/2017/01/deer.png "Logo Title Text 1")
 Dans le cadre de notre formation à la Wild Code School et afin de préparer notre projet final
 nous etions ameneés à créer un sité web avec les contraintes suivantes :
 
