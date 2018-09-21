@@ -23,7 +23,7 @@ As part of our training at the Wild Code School, and to create our first project
 we were to develop a website that met the following requirements:
 
 1. Collaborate with 3 to 4 people.
-2. Three pages minimum / 5 pages maximum.
+2. Minimum three pages / maximum five pages.
 3. Create a Curriculum Vitae of a historical figure. (Leonard Da Vinci)
 4. Use HTML, CSS, Bootstrap & JAVASCRIPT(and/or JQUERY).
 5. Use a Carrousel.
@@ -39,4 +39,4 @@ Contenu (texte et image) : se référer aux sources indiquées dans le HTML
 _________________________________________________________________________________________________________________________________
 
 Code : Loubna B., Emilie H., Mustapha L.
-Content (text and images) : refer to the HTML to see a link to the source of each text/image.
+Content (text and images): refer to the HTML to see a link to the source of each text/image.
