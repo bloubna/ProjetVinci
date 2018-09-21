@@ -40,7 +40,7 @@ nav ul {
         position: absolute;
         top: 110px;
         right: 0;
-        background-color: rgba(244, 247, 247, 0.7);
+        background-color: rgb(244, 247, 247);
         border-top: rgb(244, 247, 247);
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
