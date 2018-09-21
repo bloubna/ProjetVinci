@@ -213,6 +213,13 @@ width: 100%;
     }
 }
 
+@media screen and (max-width: 800px) {
+    .showOnScroll2 {
+        -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+    }  
+}
+
 /*****************************************
 ******************footer******************
 *****************************************/
